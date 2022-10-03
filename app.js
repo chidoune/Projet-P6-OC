@@ -23,7 +23,7 @@ const app = express();
 app.use(helmet.crossOriginResourcePolicy({policy: "cross-origin"}));
 
 // connexion de l'API à la base de donnees MongoDB et message de verification de reussite de connexion dans le console Node:
-mongoose.connect('mongodb+srv://chidoune:JesuisRachida1984@cluster0.mq961vr.mongodb.net/?retryWrites=true&w=majority',
+mongoose.connect('mongodb+srv://c:J@cluster0.mq961vr.mongodb.net/?retryWrites=true&w=majority',
   { useNewUrlParser: true,
     useUnifiedTopology: true })
   .then(() => console.log('Connexion à MongoDB réussie !'))
